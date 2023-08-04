@@ -1,0 +1,21 @@
+.Topbar{
+    width:100%;
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top:0;
+    left:0;
+    
+  }
+  
+  .Topbar img{
+    width:150px;
+  }
+
+
+  @media (max-width: 767px) {
+    .Topbar {
+        width:120%
+    }
+  }
+  

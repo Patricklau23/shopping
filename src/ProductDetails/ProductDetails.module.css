@@ -1,0 +1,91 @@
+  .ProductData{
+    width: 100%;
+  }
+  
+  .ProductTitle{
+    font-size: 48px;
+    font-weight: 600;
+    margin-left:10px;
+    color:rgb(210, 155, 84)
+  }
+  
+  .ProductDescription{
+    font-size: 20px;
+    color: rgba(0,0,0,0.8);
+    white-space: normal;
+    margin-top:0;
+    margin-bottom:16px;
+    margin-left:10px;
+  }
+  
+  .ProductImage{
+    width: 100%;
+    max-width: 80px;
+    border: 5px solid transparent;
+    border-radius:8px;
+    margin-left:10px;
+    cursor: pointer;
+  }
+  
+  .SelectedProductImage{
+    border: 5px solid teal;
+  }
+  
+  .FeatureItem{
+    min-width:80px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    border: 0;
+    margin-left:10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    box-sizing: content-box;
+    font-weight:600;
+    padding: 12px 24px;
+  }
+  
+  .SelectedFeatureItem{
+    color: white;
+    background-color: rgb(155, 32, 32);
+  }
+  
+  .PrimaryButton{
+    color:white;
+    background-color:teal;
+    font-size:20px;
+    border-radius:8px;
+    border: 0;
+    padding: 12px 24px;
+    margin-left:10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .SectionHeading{
+    color:rgb(56, 59, 142);
+    margin-left:10px;
+  }
+
+  /* Add a media query for mobile screens */
+  @media (max-width: 767px) {
+
+  /* Adjust the width of color options to create a horizontal row */
+  .ProductTitle{
+    white-space:normal;
+  }
+
+  .ProductDescription{
+    white-space:normal;
+  }
+
+  .Product {
+    display:flex;
+    overflow:scroll
+  }
+
+  /* Adjust the width of feature items to create a horizontal row */
+  .FeatureList {
+    display:flex;
+  }
+
+}

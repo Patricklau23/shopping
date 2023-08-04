@@ -1,0 +1,25 @@
+body{
+  font-family: 'Source Sans Pro',sans-serif;
+  background-image: linear-gradient(to bottom, #d6eed6, #f6f3f3);
+  overflow-x: hidden;
+}
+
+.MainContainer{
+  padding: 4% 12%;
+  margin-top: 25%;
+  box-sizing: border-box;
+  width:100%;
+  display:flex;
+  align-items: center;
+}
+
+.ProductPreview{
+  width: 50%;
+  position: relative;
+}
+
+.ProductData{
+  width: 50%;
+}
+
+
